@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/STEVENSTEWART-training/network/azurerm"
+  source  = "Azure/network/azurerm"
   version = "3.0.1"
-  # insert required variables here
+  # insert the 1 required variable here
 }
